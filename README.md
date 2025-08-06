@@ -1,7 +1,8 @@
 # Scryarc
 > Your Ultimate TTRPG Server Architect
 
-[![Discord](https://img.shields.io/discord/YOUR_SERVER_ID?label=Support%20Server&logo=discord&style=for-the-badge)](https://discord.gg/your-invite-link)
+[![Discord](https://img.shields.io/discord/661388927734775859?label=Support%20Server&logo=discord&style=for-the-badge)](https://discord.gg/8N2Rzjrk2n)
+
 [![Patreon](https://img.shields.io/badge/Patreon-Support%20Us-FF424D?logo=patreon&style=for-the-badge)](https://patreon.com/GalacticCampaigns)
 
 ## What is Scryarc?
