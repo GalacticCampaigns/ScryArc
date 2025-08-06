@@ -1,0 +1,42 @@
+name: "❓ Question / Support Request"
+description: "Ask a question about how to use Scryarc or its features."
+title: "[Question] A short summary of my question"
+labels: ["question"]
+projects: ["GalacticCampaigns/2"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **For faster help, we highly recommend joining our [Community Support Server](https://discord.gg/your-invite-link) and asking in the `#scryarc-support` channel.**
+
+        However, if you prefer to ask your question here, please provide as much detail as possible below.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: "What is your question?"
+      description: "Please provide a clear and detailed description of your question or what you are trying to accomplish."
+      placeholder: "How can I set up a permission profile that only allows GMs to manage messages but not channels?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempts
+    attributes:
+      label: "What have you tried so far?"
+      description: "Let us know what you've already tried to do to solve this. This helps us understand the problem better."
+      placeholder: "I looked at the `/config permissions` command but I'm not sure how to create a new profile."
+
+  - type: input
+    id: discord-username
+    attributes:
+      label: Discord Username (Optional)
+      description: If you're comfortable sharing, please provide your Discord username (e.g., `username#1234`).
+      placeholder: "username#1234"
+
+  - type: input
+    id: guild-id
+    attributes:
+      label: Server / Guild ID (Optional)
+      description: If your question is about a specific server's configuration, please provide the Server ID.
+      placeholder: "123456789012345678"
