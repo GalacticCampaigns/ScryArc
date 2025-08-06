@@ -3,6 +3,7 @@ description: "Suggest a new idea or enhancement for Scryarc."
 title: "[Feature] A brief, clear summary of the new feature"
 labels: ["enhancement"]
 type: "Feature"
+projects: ["GalacticCampaigns/2"]
 body:
   - type: markdown
     attributes:
