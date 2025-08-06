@@ -1,7 +1,7 @@
 name: "📖 Documentation Issue"
 description: "Report an error or suggest an improvement for the documentation."
 title: "[Doc] A brief summary of the documentation issue"
-labels: ["documentation", "triage"]
+labels: ["documentation", "status: triage"]
 projects: ["GalacticCampaigns/2"]
 body:
   - type: markdown
