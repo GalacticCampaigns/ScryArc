@@ -45,11 +45,20 @@ body:
       required: true
 
   - type: textarea
-    id: logs-screenshots
+    id: debug-info
     attributes:
-      label: Screenshots or Error Messages
-      description: If applicable, please add screenshots, logs, or copy-paste the exact text of any error messages to help explain your problem.
-      placeholder: "`Error: Interaction Failed`"
+      label: Scryarc Debug Info & Screenshots
+      description: "Please run the `/help` command in Discord and click 'Get Debug Info'. The bot will DM you a block of text. **Paste that entire block of text here.** You can also add any other error messages or screenshots."
+      placeholder: |
+        ```
+        --- Scryarc Debug Info ---
+        Bot Version: 1.0.0
+        User ID: 123456789012345678
+        Server ID: 876543210987654321
+        Timestamp: 2025-08-06T15:52:44.000Z
+        ```
+    validations:
+      required: true
 
   - type: dropdown
     id: client-version
@@ -62,17 +71,3 @@ body:
         - Mobile App (iOS or Android)
     validations:
       required: true
-
-  - type: input
-    id: discord-username
-    attributes:
-      label: Discord Username (Optional)
-      description: If you're comfortable sharing, please provide your Discord username (e.g., `username#1234`). This can help us reach out for more details if needed.
-      placeholder: "username#1234"
-
-  - type: input
-    id: guild-id
-    attributes:
-      label: Server / Guild ID (Optional)
-      description: Providing the ID of the server where the bug occurred can be very helpful for troubleshooting specific configurations. You can get this by right-clicking your server icon and selecting 'Copy Server ID'. (You may need to enable Developer Mode in your Discord settings first.)
-      placeholder: "123456789012345678"
