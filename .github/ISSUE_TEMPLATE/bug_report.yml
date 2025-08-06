@@ -1,0 +1,62 @@
+name: 🐞 Bug Report
+description: Report a bug or unexpected behavior in Scryarc.
+title: "[Bug] A brief, clear title of the issue"
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to file a bug report! Please provide as much detail as possible to help us diagnose and fix the issue quickly.
+
+  - type: checkboxes
+    id: preflight-check
+    attributes:
+      label: Pre-flight Checklist
+      description: Before you submit, please make sure you've done the following.
+      options:
+        - label: I have searched the [existing issues](https://github.com/YourUsername/scryarc/issues) to make sure this bug has not already been reported.
+          required: true
+        - label: I have confirmed the bot is online and responsive in my server.
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the Bug
+      description: A clear and concise description of what the bug is. What did you expect to happen, and what actually happened?
+      placeholder: "When I used the /new_game command, I expected a channel to be created. Instead, the bot gave me an 'Interaction Failed' error."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Please provide a step-by-step list of the actions you took that caused the bug.
+      placeholder: |
+        1. Go to the '#general' channel.
+        2. Use the command `/new_game`.
+        3. Fill in the 'name' field with "Test Game".
+        4. Click the "Submit" button.
+        5. See error.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs-screenshots
+    attributes:
+      label: Screenshots or Error Messages
+      description: If applicable, please add screenshots, logs, or copy-paste the exact text of any error messages to help explain your problem.
+      placeholder: "`Error: Interaction Failed`"
+
+  - type: dropdown
+    id: client-version
+    attributes:
+      label: Discord Client
+      description: What version of the Discord client were you using when you encountered the bug?
+      options:
+        - Desktop App (Windows, Mac, or Linux)
+        - Web Browser
+        - Mobile App (iOS or Android)
+    validations:
+      required: true
