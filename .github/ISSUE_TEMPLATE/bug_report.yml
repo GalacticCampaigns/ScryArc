@@ -3,7 +3,7 @@ description: Report a bug or unexpected behavior in Scryarc.
 title: "[Bug] A brief, clear title of the issue"
 labels: ["bug", "triage"]
 type: "bug"
-projects: ["galacticcampaigns/2"]
+projects: ["GalacticCampaigns/2"]
 body:
   - type: markdown
     attributes:
@@ -16,7 +16,7 @@ body:
       label: Pre-flight Checklist
       description: Before you submit, please make sure you've done the following.
       options:
-        - label: I have searched the [existing issues](https://github.com/GalacticCampaigns/scryarc/issues) to make sure this bug has not already been reported.
+        - label: I have searched the [existing issues](https://github.com/YourUsername/scryarc/issues) to make sure this bug has not already been reported.
           required: true
         - label: I have confirmed the bot is online and responsive in my server.
           required: true
@@ -62,3 +62,17 @@ body:
         - Mobile App (iOS or Android)
     validations:
       required: true
+
+  - type: input
+    id: discord-username
+    attributes:
+      label: Discord Username (Optional)
+      description: If you're comfortable sharing, please provide your Discord username (e.g., `username#1234`). This can help us reach out for more details if needed.
+      placeholder: "username#1234"
+
+  - type: input
+    id: guild-id
+    attributes:
+      label: Server / Guild ID (Optional)
+      description: Providing the ID of the server where the bug occurred can be very helpful for troubleshooting specific configurations. You can get this by right-clicking your server icon and selecting 'Copy Server ID'. (You may need to enable Developer Mode in your Discord settings first.)
+      placeholder: "123456789012345678"
