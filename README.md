@@ -14,7 +14,7 @@ Built to be system-agnostic, Scryarc is the perfect foundational tool for any TT
 
 ## Getting Started
 
-**[➡️ Click here to invite Scryarc to your Discord server!]([https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&scope=bot%20applications.commands](https://discord.com/oauth2/authorize?client_id=1402363837637988488&permissions=275146427408&integration_type=0&scope=bot+applications.commands))**
+**[➡️ Click here to invite Scryarc to your Discord server!](https://discord.com/oauth2/authorize?client_id=1402363837637988488&permissions=275146427408&integration_type=0&scope=bot+applications.commands)**
 
 
 ---
