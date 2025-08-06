@@ -12,16 +12,6 @@ Built to be system-agnostic, Scryarc is the perfect foundational tool for any TT
 
 ---
 
-## Core Features
-
-* **Automated Game Setup:** Use a single command (`/new_game`) to generate a complete game space, including forum channels, private text channels, and game-specific roles.
-* **Moderator Approval Queue:** A configurable system that allows moderators to approve or deny new game requests before channels are created, ensuring quality control.
-* **Flexible Permissions:** Admins can define who can create games—all users, members with a specific role, or admins via the approval queue.
-* **Deep Customization:** Configure channel naming conventions, GM permissions, and automated messages to fit your server's unique style.
-* **Bot Integration:** Automatically assign permissions to other bots (like dice rollers or character sheet managers) in newly created game channels.
-
----
-
 ## Getting Started
 
 **[➡️ Click here to invite Scryarc to your Discord server!](https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&scope=bot%20applications.commands)**
@@ -32,19 +22,37 @@ Built to be system-agnostic, Scryarc is the perfect foundational tool for any TT
 
 ## Tiers & Features
 
-Scryarc operates on a freemium model to support its development. The core features are free forever, while premium tiers offer powerful tools for growing communities.
+Scryarc operates on a simple and sustainable freemium model. The Free Tier is powerful and designed to serve the needs of most communities, while the Premium Tier offers unlimited scale and advanced automation for large servers and power users.
 
-| Feature                      | Free | Adept Tier (~$3-5) | Master Tier (~$7-10) | Architect Tier (~$15+) |
-| :--------------------------- | :--: | :----------------: | :------------------: | :--------------------: |
-| Active Game Limit            | 5    | 15                 | 25                   | Unlimited              |
-| Bot Permission Profiles      | 1    | 3                  | 10                   | Unlimited              |
-| Core Commands & Approval     | ✅   | ✅                 | ✅                   | ✅                     |
-| Custom Handoff (Embeds)      | ❌   | ✅                 | ✅                   | ✅                     |
-| `/manage_games` Dashboard    | ❌   | ✅                 | ✅                   | ✅                     |
-| Priority Support             | ❌   | ✅                 | ✅                   | ✅                     |
-| PbP Activity Tracker         | ❌   | ❌                 | ✅                   | ✅                     |
-| Audit Logging                | ❌   | ❌                 | ✅                   | ✅                     |
-| Player Recruitment System    | ❌   | ❌                 | ❌                   | ✅                     |
+### **Scryarc (Free Tier)**
+The complete toolkit for most TTRPG communities.
+* **10 Active Games:** Manage up to 10 campaigns simultaneously.
+* **Full Creation & Moderation Workflow:** Includes the `/new_game` command with all three admin modes (Open, Role-Restricted, and Moderator Approval Queue).
+* **Full Admin Configuration:** Complete control over channels, naming, and permissions.
+* **2 Bot Permission Profiles:** Automate permissions for your two most essential bots.
+* **Text-Only Custom Handoffs:** Provide custom instructions to your GMs.
+
+### **Scryarc Premium (~$5-8 / month)**
+The ultimate toolkit for large communities, server administrators, and Play-by-Post power users.
+* **Unlimited Active Games & Bot Profiles.**
+* **Game Management Dashboard (`/manage_games`):** A powerful suite of tools to edit, re-assign, and manage all games.
+* **PbP Activity Tracker:** Automatically monitor game pace and send reminders.
+* **Audit Logging:** Keep a detailed record of all Scryarc actions on your server.
+* **Rich Embed Handoffs:** Use professional, colorful embedded messages.
+* **Priority Support** and access to all future premium features.
+
+### **Feature Comparison**
+
+| Feature                      | Scryarc (Free Tier) | Scryarc Premium |
+| :--------------------------- | :-----------------: | :---------------: |
+| **Core Commands & Approval** | ✅                  | ✅                |
+| **Active Game Limit** | 10                  | **Unlimited** |
+| **Bot Permission Profiles** | 2                   | **Unlimited** |
+| **Custom Handoff Message** | ✅ (Text Only)      | ✅ (Rich Embeds)  |
+| **`/manage_games` Dashboard**| ❌                  | ✅                |
+| **PbP Activity Tracker** | ❌                  | ✅                |
+| **Audit Logging** | ❌                  | ✅                |
+| **Priority Support** | ❌                  | ✅                |
 
 **[❤️ Support Scryarc's Development on Patreon!](https://www.patreon.com/your-patreon-link)**
 
@@ -54,29 +62,27 @@ Scryarc operates on a freemium model to support its development. The core featur
 
 ### **Version 1.0: Core Engine & Moderation MVP**
 *Goal: Launch a bot with a complete, secure, and configurable game creation workflow.*
-* **Admin Configuration:** Full setup for locations, naming, and permissions.
-* **Game Creation Workflow:** The `/new_game` command, including all three permission modes (Open, Role-Restricted, and Moderator Approval).
+* **Admin Configuration:** Full setup for locations, naming, and permissions, including the three game creation modes.
+* **Game Creation Workflow:** The `/new_game` command and the full approval queue system.
 * **Database Setup:** SQLite schema to handle all game statuses and configurations.
 
 ### **Version 1.1: Advanced Management & Integration**
 *Goal: Add tools for the full game lifecycle and deeper server integration.*
 * **Game Lifecycle:** The `/archive_game` command.
 * **Moderator Notification Channel:** A dedicated channel for approval requests.
-* **[Premium] Bot Permission Profiles:** The full system for managing other bot permissions.
-* **[Premium] Custom Handoff Instructions:** Unlocks rich embeds for handoff messages.
+* **[Premium] Bot Permission Profiles & Custom Handoff with Embeds.**
 
 ### **Version 2.0: Power-User & PbP Features**
 *Goal: Deliver high-value premium features for large and specialized communities.*
-* **[Premium] Game Management Dashboard (`/manage_games`):** The full admin suite.
-* **[Premium] PbP Activity Tracker:** Automated posting pace monitoring.
-* **Help & Documentation (`/help`):** A comprehensive help command.
-
-### **Future Ideas (Backlog)**
-* **[Premium] Player Recruitment System:** A full LFG and application management system.
-* **Dramatis Personae:** An in-Discord character wiki.
-* **Web Dashboard:** A full website for managing subscriptions and server settings.
+* **[Premium] Game Management Dashboard (`/manage_games`).**
+* **[Premium] PbP Activity Tracker.**
+* **Help & Documentation (`/help`).**
 
 ---
+
+## 🤝 Contributing
+
+While the core source code is private to support our development model, we welcome community contributions! The best way to help is by reporting bugs, suggesting features, and providing feedback. Please use the **Issue Tracker** in this repository.
 
 ## 💬 Support
 
