@@ -1,7 +1,7 @@
 name: "❓ Question / Support Request"
 description: "Ask a question about how to use Scryarc or its features."
 title: "[Question] A short summary of my question"
-labels: ["question"]
+labels: ["question", "status: triage"]
 projects: ["GalacticCampaigns/2"]
 body:
   - type: markdown
