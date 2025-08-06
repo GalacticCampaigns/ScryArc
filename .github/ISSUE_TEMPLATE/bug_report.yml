@@ -14,7 +14,7 @@ body:
       label: Pre-flight Checklist
       description: Before you submit, please make sure you've done the following.
       options:
-        - label: I have searched the [existing issues](https://github.com/YourUsername/scryarc/issues) to make sure this bug has not already been reported.
+        - label: I have searched the [existing issues](https://github.com/GalacticCampaigns/scryarc/issues) to make sure this bug has not already been reported.
           required: true
         - label: I have confirmed the bot is online and responsive in my server.
           required: true
