@@ -3,7 +3,7 @@ description: Report a bug or unexpected behavior in Scryarc.
 title: "[Bug] A brief, clear title of the issue"
 labels: ["bug", "triage"]
 type: "bug"
-projects: ["ScryArc"]
+projects: ["galacticcampaigns/2"]
 body:
   - type: markdown
     attributes:
