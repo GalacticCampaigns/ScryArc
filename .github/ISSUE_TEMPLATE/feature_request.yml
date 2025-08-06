@@ -1,7 +1,7 @@
 name: "🚀 Feature Request"
 description: "Suggest a new idea or enhancement for Scryarc."
 title: "[Feature] A brief, clear summary of the new feature"
-labels: ["enhancement"]
+labels: ["enhancement", "status: triage"]
 type: "Feature"
 projects: ["GalacticCampaigns/2"]
 body:
