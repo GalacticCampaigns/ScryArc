@@ -1,0 +1,37 @@
+name: "📖 Documentation Issue"
+description: "Report an error or suggest an improvement for the documentation."
+title: "[Doc] A brief summary of the documentation issue"
+labels: ["documentation", "triage"]
+projects: ["GalacticCampaigns/2"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve the Scryarc documentation!
+
+  - type: input
+    id: url
+    attributes:
+      label: Documentation URL
+      description: "Please provide the URL of the wiki page or document where you found the issue."
+      placeholder: "https://github.com/GalacticCampaigns/scryarc/wiki/Detailed-Guide:-/config"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Describe the issue"
+      description: "A clear and concise description of what is wrong, missing, or unclear in the documentation."
+      placeholder: "In the section about the `/config mode` command, the explanation for the 'Approval' mode is a bit confusing."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "Suggested improvement"
+      description: "How do you think we can improve it? Please provide the corrected text if possible."
+      placeholder: "It would be clearer if it said..."
+    validations:
+      required: true
