@@ -2,7 +2,7 @@
 > Your Ultimate TTRPG Server Architect
 
 [![Discord](https://img.shields.io/discord/YOUR_SERVER_ID?label=Support%20Server&logo=discord&style=for-the-badge)](https://discord.gg/your-invite-link)
-[![Patreon](https://img.shields.io/badge/Patreon-Support%20Us-FF424D?logo=patreon&style=for-the-badge)](https://www.patreon.com/your-patreon-link)
+[![Patreon](https://img.shields.io/badge/Patreon-Support%20Us-FF424D?logo=patreon&style=for-the-badge)](https://patreon.com/GalacticCampaigns)
 
 ## What is Scryarc?
 
@@ -53,7 +53,7 @@ The ultimate toolkit for large communities, server administrators, and Play-by-P
 | **Audit Logging** | ❌                  | ✅                |
 | **Priority Support** | ❌                  | ✅                |
 
-**[❤️ Support Scryarc's Development on Patreon!](https://www.patreon.com/your-patreon-link)**
+**[❤️ Support Scryarc's Development on Patreon!](https://patreon.com/GalacticCampaigns)**
 
 ---
 
