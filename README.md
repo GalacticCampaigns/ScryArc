@@ -60,23 +60,21 @@ The ultimate toolkit for large communities, server administrators, and Play-by-P
 
 ## 🗺️ Development Roadmap
 
-### **Version 1.0: Core Engine & Moderation MVP**
-*Goal: Launch a bot with a complete, secure, and configurable game creation workflow.*
-* **Admin Configuration:** Full setup for locations, naming, and permissions, including the three game creation modes.
-* **Game Creation Workflow:** The `/new_game` command and the full approval queue system.
-* **Database Setup:** SQLite schema to handle all game statuses and configurations.
-
-### **Version 1.1: Advanced Management & Integration**
-*Goal: Add tools for the full game lifecycle and deeper server integration.*
-* **Game Lifecycle:** The `/archive_game` command.
-* **Moderator Notification Channel:** A dedicated channel for approval requests.
-* **[Premium] Bot Permission Profiles & Custom Handoff with Embeds.**
+### **Version 1.0: The Game Template Engine**
+*Goal: Launch a bot with a complete, secure, and customizable game creation workflow.*
+* **Admin Configuration:** A full suite of commands to create, edit, and manage reusable Game Templates.
+* **Game Creation Workflow:** The `/new_game` command, driven by the new template system.
 
 ### **Version 2.0: Power-User & PbP Features**
 *Goal: Deliver high-value premium features for large and specialized communities.*
-* **[Premium] Game Management Dashboard (`/manage_games`).**
-* **[Premium] PbP Activity Tracker.**
-* **Help & Documentation (`/help`).**
+* **`/manage_games` Dashboard:** A full admin suite for managing all games on the server.
+* **PbP Activity Tracker:** Automated posting pace monitoring.
+* **`/help` Command:** A comprehensive help command with a built-in debug info generator.
+
+### **Version 3.0: Future (Backlog)**
+*Goal: Add major new features based on community feedback.*
+* **Player Recruitment System:** A full LFG and application management system.
+* **Retroactive Game Import Tool:** A tool for admins to bring existing, manually-created games under Scryarc's management.
 
 ---
 
@@ -86,4 +84,4 @@ While the core source code is private to support our development model, we welco
 
 ## 💬 Support
 
-If you have questions, need help, or want to share feedback, join our official **[Community Support Server](https://discord.gg/your-invite-link)**!
+If you have questions, need help, or want to share feedback, join our official **[Community Support Server](https://discord.gg/8N2Rzjrk2n)**!
