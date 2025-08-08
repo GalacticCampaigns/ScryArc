@@ -1,0 +1,18 @@
+{
+  "commands": {
+    "config_name": "config",
+    "config_description": "Configure Scryarc settings for this server.",
+    "new_game_name": "new_game",
+    "new_game_description": "Create a new TTRPG game using a server template."
+  },
+  "responses": {
+    "game_created_success": "✅ Your game **{gameName}** has been created successfully!",
+    "archive_success": "✅ The game **{gameName}** has been archived.",
+    "template_created_success": "✅ The template **{templateName}** has been created."
+  },
+  "errors": {
+    "rate_limit": "⏰ Please wait {seconds} seconds before using this command again.",
+    "no_permission": "❌ You do not have the required permissions to use this command.",
+    "config_no_moderator_channel": "❌ Server is in approval mode, but no moderator channel is set. Please contact an administrator."
+  }
+}
