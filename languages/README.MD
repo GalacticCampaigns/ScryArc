@@ -23,6 +23,6 @@ If you notice a typo, a grammatical error, or a phrase that could be worded bett
 
 This is the best way to have a major impact on the project!
 1.  **Copy the Template:** Open the `en-US.json` file. This is our base template. Copy its entire content to your clipboard.
-2.  **Create a New File:** Go back to the main `locales` folder. Click `Add file` > `Create new file`.
+2.  **Create a New File:** Go back to the main `languages` folder. Click `Add file` > `Create new file`.
 3.  **Name the File:** Name your new file according to the correct Discord locale code for the language you are adding (e.g., `pt-BR.json` for Brazilian Portuguese).
 4.  **Translate the Content:** Paste the English content into your new file. Now, carefully translate all
