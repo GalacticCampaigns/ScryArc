@@ -1,0 +1,48 @@
+{
+  "id": "starter_campaign",
+  "name": "Starter Campaign (Default)",
+  "description": "A basic template for a new TTRPG campaign, including general chat, GM-only, and player-only channels.",
+  "creationStyle": "new_category",
+  "defaultGMProfileId": null,
+  "channels": [
+    {
+      "name": "general-chat",
+      "type": "text",
+      "topic": "General discussion for the campaign.",
+      "permissions": [
+        { "target": "@everyone", "allow": ["ViewChannel", "SendMessages", "ReadMessageHistory"], "deny": [] },
+        { "target": "{GM_ID}", "allow": ["ManageMessages", "ManageChannels"], "deny": [] }
+      ],
+      "forumTags": []
+    },
+    {
+      "name": "gm-chat",
+      "type": "text",
+      "topic": "GM-only discussions and planning.",
+      "permissions": [
+        { "target": "@everyone", "deny": ["ViewChannel"] },
+        { "target": "{GM_ID}", "allow": ["ViewChannel", "SendMessages", "ReadMessageHistory"], "deny": [] }
+      ],
+      "forumTags": []
+    },
+    {
+      "name": "player-lfg",
+      "type": "text",
+      "topic": "Looking for Group / Player Introductions",
+      "permissions": [
+        { "target": "@everyone", "allow": ["ViewChannel", "SendMessages", "ReadMessageHistory"], "deny": [] }
+      ],
+      "forumTags": []
+    },
+    {
+      "name": "session-logs",
+      "type": "forum",
+      "topic": "Recaps and logs from game sessions.",
+      "permissions": [
+        { "target": "@everyone", "allow": ["ViewChannel", "ReadMessageHistory"], "deny": ["SendMessages"] },
+        { "target": "{GM_ID}", "allow": ["SendMessages"], "deny": [] }
+      ],
+      "forumTags": ["Session 1", "Session 2", "Recap"]
+    }
+  ]
+}
