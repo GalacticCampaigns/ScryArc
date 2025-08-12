@@ -4,7 +4,17 @@
     "SERVING_GUILDS": "Serving {guildCount} guilds",
     "COMMAND_ERROR": "❌ An error occurred while processing your request.",
     "RATE_LIMIT_COOLDOWN": "⏰ Please wait {cooldown} seconds before using this command again.",
-    "NO_GUILD_COMMAND": "This command can only be used in a server."
+    "NO_GUILD_COMMAND": "This command can only be used in a server.",
+    "UNKNOWN_SUBCOMMAND": "Unknown subcommand.",
+    "UNKNOWN_ERROR": "Unknown error occurred"
+  },
+  "TRANSLATION_BANNER": {
+    "TITLE": "🌍 Translation Notice",
+    "DESCRIPTION": "Some messages are currently displayed in English. We're actively seeking translators to bring Scryarc to more languages! If you're interested in contributing, please visit our community Discord server or GitHub:",
+    "FIELD_SUPPORT_SERVER": "Support Server",
+    "FIELD_PATREON": "Support Us on Patreon",
+    "FIELD_CONTRIBUTE_GITHUB": "Contribute on GitHub",
+    "FOOTER": "This message will only show once per server per session."
   },
   "NEW_GAME_COMMAND": {
     "TITLE_SUCCESS": "✅ Game Created Successfully!",
@@ -86,6 +96,7 @@
     "CMD_NEW_GAME": "Starts the process to create a new game space on this server.",
     "CMD_CONFIG": "*(Admin Only)* Configures all bot settings for this server.",
     "CMD_ARCHIVE_GAME": "*(Admin/GM Only)* Archives a completed game to free up an active slot.",
+    "BUG_REPORT_INSTRUCTION_TITLE": "Need to Report a Bug?",
     "BUG_REPORT_INSTRUCTION": "If you encounter an issue, you can get pre-formatted debug info to include in your report. Click the button below!",
     "FOOTER_VERSION": "Scryarc v{version}",
     "DEBUG_BUTTON_LABEL": "Get Debug Info",
@@ -97,9 +108,15 @@
   },
   "GAME_MANAGER": {
     "GM_NOT_FOUND": "Game Master not found in server",
+    "NEW_CATEGORY_CREATED_REASON": "Scryarc auto-created category for games",
     "NEW_CATEGORY_CREATED": "Created new category:",
     "GAME_CHANNEL_CREATED": "Game channel created successfully:",
     "ERROR_CREATING_CHANNEL": "Error creating game channel:",
+    "CHANNEL_CREATED_REASON": "Scryarc game channel created by {gmDisplayName}",
+    "TOPIC_PREFIX": "🎲 {gameName}",
+    "TOPIC_SYSTEM": " | System: {system}",
+    "TOPIC_DESCRIPTION": " | {description}",
+    "TOPIC_GM": " | GM: <@{userId}>",
     "WELCOME_TITLE": "🎲 Welcome to {gameName}!",
     "WELCOME_DESCRIPTION": "A new adventure awaits!",
     "WELCOME_FIELD_GM": "🎮 Game Master",
@@ -109,6 +126,7 @@
     "WELCOME_FOOTER": "Powered by Scryarc",
     "GM_INSTRUCTIONS_TITLE": "📋 Quick Start Guide",
     "GM_INSTRUCTIONS_CONTENT": "• Use Discord's built-in permissions to invite players\\n• You have special permissions in this channel\\n• Archive the game when finished using server commands\\n• Need help? Contact server administrators\\n\\nGood luck with your campaign! 🎉",
+    "GM_INSTRUCTIONS_GREETING": "Hey <@{gmId}>!",
     "ERROR_SENDING_WELCOME": "Error sending welcome message:",
     "GAME_ARCHIVED_WARN": "No game found to archive:",
     "GAME_ARCHIVED_SUCCESS": "Game archived:",
