@@ -1,0 +1,17 @@
+{
+  "id": "carl_bot_default",
+  "name": "Carl-bot (Default)",
+  "description": "Standard permissions for Carl-bot in game channels.",
+  "isDefault": true,
+  "botId": "235148962103953408",
+  "permissions": [
+    "ViewChannel",
+    "SendMessages",
+    "EmbedLinks",
+    "AttachFiles",
+    "ReadMessageHistory",
+    "AddReactions",
+    "UseExternalEmojis",
+    "ManageMessages"
+  ]
+}
