@@ -135,7 +135,7 @@
     "PERMISSIONS_PREMIUM_DESCRIPTION": "Upgrade to Scryarc Premium for unlimited permission profiles!"
   },
   "HELP_COMMAND": {
-    "DESCRIPTION_MAIN": "Displays help information and provides a way to get debug info.", // NEW
+    "DESCRIPTION_MAIN": "Displays help information and provides a way to get debug info.",
     "TITLE": "Scryarc Help & Support",
     "DESCRIPTION": "Welcome to Scryarc, your TTRPG Server Architect! Here are some resources to get you started.",
     "CMD_NEW_GAME": "Starts the process to create a new game space on this server.",
