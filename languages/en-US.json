@@ -61,7 +61,7 @@
     "OPTION_PUBLIC_CATEGORY": "Category for public games",
     "OPTION_PRIVATE_CATEGORY": "Category for private games",
     "OPTION_MODERATOR_CHANNEL": "Channel for moderator notifications (for approval mode)",
-    "OPTION_NAMING_TEMPLATE": "Template for channel names (e.g., {GameName}-{YY}{MM}{DD}, or {DEFAULT} to reset). Available: {availablePlaceholders}",
+    "OPTION_NAMING_TEMPLATE": "Template for channel names (e.g., {GameName} or {DEFAULT} to reset). See complete list on Wiki.",
     "OPTION_DEFAULT_PERMISSION_PROFILE_ID": "ID or Name of the default bot permission profile for new games (or {CLEAR} to remove)",
     "OPTION_GAME_ADMIN_ROLE": "Role that can bypass game creation restrictions (Scryarc Game Admin)",
     "OPTION_CONFIG_ADMIN_ROLE": "Role that can use /config commands (Scryarc Config Admin)",
