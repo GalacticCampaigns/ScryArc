@@ -73,7 +73,7 @@
     "MODE_NEXT_STEP_ROLE": "You need to set an allowed role using `/config role`",
     "MODE_NEXT_STEP_MOD_CHANNEL": "You need to set a moderator channel using `/config moderator_channel`",
     "ROLE_UPDATE_SUCCESS_TITLE": "✅ Allowed Role Updated",
-    "ROLE_UPDATE_SUCCESS_DESCRIPTION": "Users with the **{roleName}** role can now create games.",
+    "ROLE_UPDATE_SUCCESS_DESCRIPTION": "Allowed role has been set to: **{roleName}**.",
     "CATEGORY_UPDATE_SUCCESS_TITLE": "✅ Game Categories Updated",
     "CATEGORY_UPDATE_SUCCESS_DESCRIPTION": "Game channel categories have been configured.",
     "MOD_CHANNEL_UPDATE_SUCCESS_TITLE": "✅ Moderator Channel Updated",
@@ -88,7 +88,23 @@
     "PERMISSIONS_NO_PROFILES": "No permission profiles have been created yet.",
     "PERMISSIONS_NO_PERMISSIONS_SET": "No permissions set",
     "PERMISSIONS_PREMIUM_FEATURE": "💎 Premium Feature",
-    "PERMISSIONS_PREMIUM_DESCRIPTION": "Upgrade to Scryarc Premium for unlimited permission profiles!"
+    "PERMISSIONS_PREMIUM_DESCRIPTION": "Upgrade to Scryarc Premium for unlimited permission profiles!",
+    
+    "MODIFY_SUCCESS_TITLE": "✅ Configuration Updated!",
+    "NO_CHANGES_TITLE": "⚠️ No Changes Made",
+    "NO_CHANGES_DESCRIPTION": "No valid configuration options were provided or changed.",
+    "ROLE_CLEARED_DESCRIPTION": "Allowed role has been cleared.",
+    "PUBLIC_CATEGORY_UPDATED": "Public games category updated to: **{categoryName}**.",
+    "PUBLIC_CATEGORY_CLEARED": "Public games category has been cleared.",
+    "INVALID_PUBLIC_CATEGORY_TYPE": "❌ Public category must be a category channel, but `{channelName}` is not.",
+    "PRIVATE_CATEGORY_UPDATED": "Private games category updated to: **{categoryName}**.",
+    "PRIVATE_CATEGORY_CLEARED": "Private games category has been cleared.",
+    "INVALID_PRIVATE_CATEGORY_TYPE": "❌ Private category must be a category channel, but `{channelName}` is not.",
+    "INVALID_MODERATOR_CHANNEL_TYPE": "❌ Moderator channel must be a text channel, but `{channelName}` is not.",
+    "MOD_CHANNEL_CLEARED": "Moderator channel has been cleared.",
+    "DEFAULT_PROFILE_UPDATED": "Default permission profile set to: **{profileName}**.",
+    "DEFAULT_PROFILE_CLEARED": "Default permission profile has been cleared.",
+    "DEFAULT_PROFILE_NOT_FOUND": "❌ Permission profile `{profileId}` not found."
   },
   "HELP_COMMAND": {
     "TITLE": "Scryarc Help & Support",
