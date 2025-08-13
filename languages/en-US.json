@@ -17,6 +17,12 @@
     "FOOTER": "This message will only show once per server per session."
   },
   "NEW_GAME_COMMAND": {
+    "DESCRIPTION_MAIN": "Create a new TTRPG game.",
+    "OPTION_NAME": "Name of the game",
+    "OPTION_SYSTEM": "Game system (e.g., D&D 5e, Pathfinder, Call of Cthulhu)",
+    "OPTION_DESCRIPTION": "Brief description of the game",
+    "OPTION_PRIVATE": "Make this a private game (only visible to invited players)",
+    "OPTION_MAX_PLAYERS": "Maximum number of players (including GM)",
     "TITLE_SUCCESS": "✅ Game Created Successfully!",
     "DESCRIPTION_SUCCESS": "Your game **{gameName}** has been created.",
     "FIELD_SYSTEM": "🎲 Game System",
@@ -47,6 +53,19 @@
     "APPROVAL_REQUEST_FIELD_DESCRIPTION": "📝 Description"
   },
   "CONFIG_COMMAND": {
+    "DESCRIPTION_MAIN": "Configure Scryarc settings for this server.",
+    "DESCRIPTION_VIEW_SUB": "View current server configuration.",
+    "DESCRIPTION_MODIFY_SUB": "Modify multiple server configuration settings at once.",
+    "OPTION_MODE": "Set the game creation mode",
+    "OPTION_ALLOWED_ROLE": "Role that can create games (for role-restricted mode)",
+    "OPTION_PUBLIC_CATEGORY": "Category for public games",
+    "OPTION_PRIVATE_CATEGORY": "Category for private games",
+    "OPTION_MODERATOR_CHANNEL": "Channel for moderator notifications (for approval mode)",
+    "OPTION_NAMING_TEMPLATE": "Template for channel names (e.g., {GameName}-{YY}{MM}{DD}, or {DEFAULT} to reset). Available: {availablePlaceholders}",
+    "OPTION_DEFAULT_PERMISSION_PROFILE_ID": "ID or Name of the default bot permission profile for new games (or {CLEAR} to remove)",
+    "OPTION_GAME_ADMIN_ROLE": "Role that can bypass game creation restrictions (Scryarc Game Admin)",
+    "OPTION_CONFIG_ADMIN_ROLE": "Role that can use /config commands (Scryarc Config Admin)",
+
     "TITLE_VIEW": "🔧 Scryarc Server Configuration",
     "DESCRIPTION_VIEW": "Current settings for this server",
     "FIELD_GAME_CREATION_MODE": "🎮 Game Creation Mode",
@@ -54,7 +73,7 @@
     "MODE_ROLE_RESTRICTED": "👤 Role Restricted - Only specific role can create",
     "MODE_APPROVAL": "✋ Moderator Approval - Requires moderator approval",
     "UNKNOWN_MODE": "Unknown",
-    "FIELD_ALLOWED_ROLE": "👤 Allowed Role",
+    "FIELD_ALLOWED_ROLE": "👤 Allowed Role (Game Creation)",
     "ROLE_NOT_FOUND": "Role not found",
     "FIELD_PUBLIC_CATEGORY": "📁 Public Games Category",
     "FIELD_PRIVATE_CATEGORY": "🔒 Private Games Category",
@@ -94,11 +113,19 @@
     "NAMING_TEMPLATE_INVALID_TITLE": "❌ Invalid Template",
     "NAMING_TEMPLATE_INVALID_DESCRIPTION": "Your template must include at least one placeholder.",
     "NAMING_TEMPLATE_AVAILABLE_PLACEHOLDERS": "📝 Available Placeholders",
-    "NAMING_TEMPLATE_CLEARED": "Channel naming template has been reset to default (`{game_name}`).",
+    "NAMING_TEMPLATE_CLEARED": "Channel naming template has been reset to default (`{GameName}`).",
     
     "DEFAULT_PROFILE_UPDATED": "Default permission profile set to: **{profileName}**.",
     "DEFAULT_PROFILE_CLEARED": "Default permission profile has been cleared.",
     "DEFAULT_PROFILE_NOT_FOUND": "❌ Permission profile `{profileId}` not found.",
+    
+    "GAME_ADMIN_ROLE_UPDATED": "Scryarc Game Admin role set to: **{roleName}**.",
+    "GAME_ADMIN_ROLE_CLEARED": "Scryarc Game Admin role has been cleared.",
+    "CONFIG_ADMIN_ROLE_UPDATED": "Scryarc Config Admin role set to: **{roleName}**.",
+    "CONFIG_ADMIN_ROLE_CLEARED": "Scryarc Config Admin role has been cleared.",
+    "FIELD_GAME_ADMIN_ROLE": "🎮 Scryarc Game Admin Role",
+    "FIELD_CONFIG_ADMIN_ROLE": "⚙️ Scryarc Config Admin Role",
+    "PERMISSION_DENIED": "❌ You do not have permission to use this command.",
     
     "PERMISSIONS_TITLE": "🔐 Permission Profiles",
     "PERMISSIONS_DESCRIPTION": "Manage permission profiles for Game Masters",
@@ -108,6 +135,7 @@
     "PERMISSIONS_PREMIUM_DESCRIPTION": "Upgrade to Scryarc Premium for unlimited permission profiles!"
   },
   "HELP_COMMAND": {
+    "DESCRIPTION_MAIN": "Displays help information and provides a way to get debug info.", // NEW
     "TITLE": "Scryarc Help & Support",
     "DESCRIPTION": "Welcome to Scryarc, your TTRPG Server Architect! Here are some resources to get you started.",
     "CMD_NEW_GAME": "Starts the process to create a new game space on this server.",
@@ -130,10 +158,7 @@
     "GAME_CHANNEL_CREATED": "Game channel created successfully:",
     "ERROR_CREATING_CHANNEL": "Error creating game channel:",
     "CHANNEL_CREATED_REASON": "Scryarc game channel created by {gmDisplayName}",
-    "TOPIC_PREFIX": "🎲 {gameName}",
-    "TOPIC_SYSTEM": " | System: {system}",
-    "TOPIC_DESCRIPTION": " | {description}",
-    "TOPIC_GM": " | GM: <@{userId}>",
+    "TOPIC_TEMPLATE": "🎲 {GameName} | System: {GameSystem} | GM: <@{GMUserID}>",
     "WELCOME_TITLE": "🎲 Welcome to {gameName}!",
     "WELCOME_DESCRIPTION": "A new adventure awaits!",
     "WELCOME_FIELD_GM": "🎮 Game Master",
