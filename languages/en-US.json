@@ -55,6 +55,7 @@
   "CONFIG_COMMAND": {
     "DESCRIPTION_MAIN": "Configure Scryarc settings for this server.",
     "DESCRIPTION_VIEW_SUB": "View current server configuration.",
+    "DESCRIPTION_PERMISSIONS_SUB": "Manage permission profiles for Game Masters.",
     "DESCRIPTION_MODIFY_SUB": "Modify multiple server configuration settings at once.",
     "OPTION_MODE": "Set the game creation mode",
     "OPTION_ALLOWED_ROLE": "Role for game creation restrictions",
