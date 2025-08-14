@@ -1,0 +1,62 @@
+[
+  {
+    "id": "dnd5e",
+    "genre": "Fantasy",
+    "prettyName": "Dungeons & Dragons 5th Edition",
+    "abbreviatedName": "D&D 5e",
+    "publisher": "Wizards of the Coast",
+    "description": "The world's most popular tabletop roleplaying game, focusing on high fantasy adventures.",
+    "officialUrl": "https://dnd.wizards.com/",
+    "iconUrl": "https://example.com/dnd5e_icon.png",
+    "dicePool": ["d20", "d12", "d10", "d8", "d6", "d4"],
+    "tags": ["High Fantasy", "Adventure", "Tactical"]
+  },
+  {
+    "id": "pathfinder2e",
+    "genre": "Fantasy",
+    "prettyName": "Pathfinder 2nd Edition",
+    "abbreviatedName": "PF2e",
+    "publisher": "Paizo Inc.",
+    "description": "A complex fantasy roleplaying game with robust combat and character customization.",
+    "officialUrl": "https://paizo.com/pathfinder",
+    "iconUrl": "https://example.com/pf2e_icon.png",
+    "dicePool": ["d20", "d12", "d10", "d8", "d6", "d4"],
+    "tags": ["High Fantasy", "Crunchy", "Tactical"]
+  },
+  {
+    "id": "starwarsffg",
+    "genre": "Sci-Fi",
+    "prettyName": "Star Wars: Force and Destiny / Age of Rebellion / Edge of the Empire",
+    "abbreviatedName": "SW FFG",
+    "publisher": "Fantasy Flight Games",
+    "description": "Narrative-focused Star Wars RPG using custom dice for cinematic results.",
+    "officialUrl": "https://www.fantasyflightgames.com/en/products/star-wars-force-and-destiny/",
+    "iconUrl": "https://example.com/swffg_icon.png",
+    "dicePool": ["custom"],
+    "tags": ["Space Opera", "Narrative", "Cinematic"]
+  },
+  {
+    "id": "callofcthulhu",
+    "genre": "Horror",
+    "prettyName": "Call of Cthulhu 7th Edition",
+    "abbreviatedName": "CoC 7e",
+    "publisher": "Chaosium Inc.",
+    "description": "A horror roleplaying game set in the 1920s, exploring cosmic dread and sanity loss.",
+    "officialUrl": "https://www.chaosium.com/call-of-cthulhu-rpg/",
+    "iconUrl": "https://example.com/coc_icon.png",
+    "dicePool": ["d100", "d20", "d6"],
+    "tags": ["Cosmic Horror", "Mystery", "Investigation"]
+  },
+  {
+    "id": "bladesinthedark",
+    "genre": "Fantasy",
+    "prettyName": "Blades in the Dark",
+    "abbreviatedName": "BitD",
+    "publisher": "Evil Hat Productions",
+    "description": "A game about a crew of daring scoundrels building a criminal enterprise in a haunted industrial city.",
+    "officialUrl": "https://bladesinthedark.com/",
+    "iconUrl": "https://example.com/bitd_icon.png",
+    "dicePool": ["d6"],
+    "tags": ["Forged in the Dark", "Heist", "Gritty Fantasy"]
+  }
+]
