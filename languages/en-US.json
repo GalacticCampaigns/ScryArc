@@ -66,6 +66,12 @@
     "OPTION_DEFAULT_PERMISSION_PROFILE_ID": "Default bot permission profile ID/Name (or {CLEAR})",
     "OPTION_GAME_ADMIN_ROLE": "Role to bypass game creation restrictions",
     "OPTION_CONFIG_ADMIN_ROLE": "Role to use /config commands",
+    "OPTION_DEFAULT_GAME_TEMPLATE": "The ID of the default game template to use. Use {CLEAR} to unset. Available: {availableTemplates}",
+    "DEFAULT_GAME_TEMPLATE_CLEARED": "Default game template has been cleared.",
+    
+    "DEFAULT_GAME_TEMPLATE_UPDATED": "Default game template updated to **{templateName}**.",
+    "DEFAULT_GAME_TEMPLATE_NOT_FOUND": "Game template with ID '{templateId}' not found. Please use a valid template ID.",
+    "FIELD_DEFAULT_GAME_TEMPLATE": "Default Game Template",
 
     "TITLE_VIEW": "🔧 Scryarc Server Configuration",
     "DESCRIPTION_VIEW": "Current settings for this server",
