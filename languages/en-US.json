@@ -112,7 +112,9 @@
     
     "NAMING_TEMPLATE_UPDATE_SUCCESS_DESCRIPTION": "New game channels will use this naming pattern.",
     "NAMING_TEMPLATE_INVALID_TITLE": "❌ Invalid Template",
-    "NAMING_TEMPLATE_INVALID_DESCRIPTION": "Your template must include at least one placeholder.",
+    "NAMING_TEMPLATE_INVALID_DESCRIPTION": "The provided naming template contains invalid placeholders: {invalidPlaceholders}. Please use valid placeholders.",
+    "NAMING_TEMPLATE_UPDATE_SUCCESS_DESCRIPTION": "Channel naming template updated successfully.",
+    "NAMING_TEMPLATE_UPDATE_SUCCESS_DESCRIPTION_CORRECTED": "Channel naming template updated and corrected for placeholder casing to: `{newTemplate}`."
     "NAMING_TEMPLATE_AVAILABLE_PLACEHOLDERS": "📝 Available Placeholders",
     "NAMING_TEMPLATE_CLEARED": "Channel naming template has been reset to default (`{GameName}`).",
     
