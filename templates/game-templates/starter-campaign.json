@@ -20,7 +20,7 @@
       "type": "text",
       "topic": "GM-only discussions and planning.",
       "permissions": [
-        { "target": "@everyone", "deny": ["ViewChannel"] },
+        { "target": "@everyone", "allow": [], "deny": ["ViewChannel"] },
         { "target": "{GM_ID}", "allow": ["ViewChannel", "SendMessages", "ReadMessageHistory"], "deny": [] }
       ],
       "forumTags": []
