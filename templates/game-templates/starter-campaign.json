@@ -42,7 +42,21 @@
         { "target": "@everyone", "allow": ["ViewChannel", "ReadMessageHistory"], "deny": ["SendMessages"] },
         { "target": "{GM_ID}", "allow": ["SendMessages"], "deny": [] }
       ],
-      "forumTags": ["Session 1", "Session 2", "Recap"]
+      "forumTags": ["Session 1", "Session 2", "Recap"],
+      "initialThreads": [
+        {
+          "name": "Welcome to Session Logs!",
+          "message": "This is where we'll keep track of all our game sessions. Feel free to create new posts for recaps, questions, or discussions about past games. Use the 'Recap' tag for session summaries!",
+          "isPrivate": false,
+          "tags": ["Recap"]
+        },
+        {
+          "name": "GM Notes (Private)",
+          "message": "This is a private thread for GM notes and secret planning. Players cannot see this!",
+          "isPrivate": true,
+          "tags": []
+        }
+      ]
     }
   ]
 }
