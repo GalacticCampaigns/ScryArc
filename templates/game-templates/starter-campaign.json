@@ -3,7 +3,7 @@
   "name": "Starter Campaign (Default)",
   "description": "A basic template for a new TTRPG campaign, including general chat, GM-only, and player-only channels.",
   "creationStyle": "new_category",
-  "defaultGMProfileId": null,
+  "defaultGMProfileId": "gm_basic_profile",
   "channels": [
     {
       "name": "general-chat",
