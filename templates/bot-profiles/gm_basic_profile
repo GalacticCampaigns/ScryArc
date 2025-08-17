@@ -1,0 +1,18 @@
+{
+  "id": "gm_basic_profile",
+  "name": "GM Basic Profile",
+  "description": "Standard permissions for a basic game master.",
+  "isDefault": false,
+  "botId": "1402363837637988488",
+  "permissions": [
+    "ViewChannel",
+    "SendMessages",
+    "ReadMessageHistory",
+    "EmbedLinks",
+    "AttachFiles",
+    "AddReactions",
+    "UseExternalEmojis",
+    "ManageMessages",
+    "ManageChannels"
+  ]
+}
