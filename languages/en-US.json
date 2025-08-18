@@ -51,6 +51,11 @@
     "APPROVAL_REQUEST_FIELD_REQUESTED_BY": "👤 Requested by",
     "APPROVAL_REQUEST_FIELD_MAX_PLAYERS": "👥 Max Players",
     "APPROVAL_REQUEST_FIELD_DESCRIPTION": "📝 Description"
+    "OPTION_ABBREVIATION": "A unique 2-6 character abbreviation for the game (e.g., SWSE, DND5e).",
+    "INVALID_ABBREVIATION_FORMAT": "The game abbreviation must be 2-6 alphanumeric characters (letters and numbers only).",
+    "DUPLICATE_ABBREVIATION": "The abbreviation '{abbreviation}' is already in use by an active game on this server. Please choose a different one.",
+    "OPTION_OVERRIDE_ROSTER_MODE": "(Admin Only) Override the server's default GM/Player roster mode for this game.",
+    "NOT_SPECIFIED": "Not Specified"
   },
   "CONFIG_COMMAND": {
     "DESCRIPTION_MAIN": "Configure Scryarc settings for this server.",
@@ -68,6 +73,31 @@
     "OPTION_CONFIG_ADMIN_ROLE": "Role to use /config commands",
     "OPTION_DEFAULT_GAME_TEMPLATE": "The ID of the default game template to use. Use {CLEAR} to unset. Available: {availableTemplates}",
     "DEFAULT_GAME_TEMPLATE_CLEARED": "Default game template has been cleared.",
+
+    "OPTION_GM_ROSTER_MODE": "Default method for managing GM roles/permissions for new games.",
+    "OPTION_PLAYER_ROSTER_MODE": "Default method for managing Player roles/permissions for new games.",
+    "ROSTER_MODE_NONE": "Individual (No designated role)",
+    "ROSTER_MODE_AUTO_CREATE_ROLE": "Auto-Create Role (Unique per game)",
+    "ROSTER_MODE_MASTER_ROLE": "Master Role (Server-wide role)",
+    "GM_ROSTER_MODE_UPDATED": "GM roster management mode updated to **{mode}**.",
+    "PLAYER_ROSTER_MODE_UPDATED": "Player roster management mode updated to **{mode}**.",
+    "OPTION_MASTER_GM_ROLE": "The server role to use as the master GM role for games.",
+    "OPTION_MASTER_PLAYER_ROLE": "The server role to use as the master Player role for games.",
+    "MASTER_GM_ROLE_UPDATED": "Master GM role updated to **{roleName}**.",
+    "MASTER_GM_ROLE_CLEARED": "Master GM role has been cleared.",
+    "MASTER_PLAYER_ROLE_UPDATED": "Master Player role updated to **{roleName}**.",
+    "MASTER_PLAYER_ROLE_CLEARED": "Master Player role has been cleared.",
+    "OPTION_GM_ROLE_NAMING_TEMPLATE": "Template for auto-created GM role names (e.g., '{GameName} GM').",
+    "OPTION_PLAYER_ROLE_NAMING_TEMPLATE": "Template for auto-created Player role names (e.g., '{GameName} Players').",
+    "GM_ROLE_NAMING_TEMPLATE_UPDATED": "GM role naming template updated.",
+    "PLAYER_ROLE_NAMING_TEMPLATE_UPDATED": "Player role naming template updated.",
+    "FIELD_GM_ROSTER_MODE": "GM Roster Mode",
+    "FIELD_PLAYER_ROSTER_MODE": "Player Roster Mode",
+    "FIELD_MASTER_GM_ROLE": "Master GM Role",
+    "FIELD_MASTER_PLAYER_ROLE": "Master Player Role",
+    "FIELD_GM_ROLE_NAMING_TEMPLATE": "GM Role Naming Template",
+    "FIELD_PLAYER_ROLE_NAMING_TEMPLATE": "Player Role Naming Template",
+    "ROLE_HIERARCHY_WARNING": "Bot may not be able to manage role **{roleName}** due to Discord's role hierarchy. Reason: {reason}. Please ensure my highest role is above the role you are setting."
     
     "DEFAULT_GAME_TEMPLATE_UPDATED": "Default game template updated to **{templateName}**.",
     "DEFAULT_GAME_TEMPLATE_NOT_FOUND": "Game template with ID '{templateId}' not found. Please use a valid template ID.",
@@ -182,7 +212,9 @@
     "GAME_ARCHIVED_WARN": "No game found to archive:",
     "GAME_ARCHIVED_SUCCESS": "Game archived:",
     "GAME_DELETED_WARN": "Channel not found for deletion:",
-    "GAME_DELETED_SUCCESS": "Game channel deleted:"
+    "GAME_DELETED_SUCCESS": "Game channel deleted:",
+    "THREAD_CREATED_REASON": "Initial thread created for '{threadName}' from game template."
+    "BOT_HIERARCHY_TOO_LOW": "I cannot create or manage roles/permissions because my highest role is too low in the Discord role hierarchy. Please ensure my highest role is above any roles I need to manage or apply permissions to. Reason: {reason}"
   },
   "INTERACTION_HANDLER": {
     "NO_PENDING_APPROVAL": "❌ No pending approval request found for this message.",
@@ -198,5 +230,8 @@
     "GAME_DENIED_REPLY": "❌ Game request denied.",
     "GAME_DENIED_DM_TITLE": "❌ Game Request Denied",
     "GAME_DENIED_DM_DESCRIPTION": "Your game request **{gameName}** was denied in **{serverName}**."
+  },
+  "GLOBAL": {
+    "NOT_AVAILABLE": "N/A"
   }
 }
