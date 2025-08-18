@@ -201,7 +201,9 @@
         "GAME_DELETED_SUCCESS": "Game channel deleted:",
         "THREAD_CREATED_REASON": "Initial thread created for '{threadName}' from game template.",
         "BOT_HIERARCHY_TOO_LOW": "I cannot create or manage roles/permissions because my highest role is too low in the Discord role hierarchy. Please ensure my highest role is above any roles I need to manage or apply permissions to. Reason: {reason}",
-        "BOT_MEMBER_NOT_FOUND": "Could not find bot's member object in the guild. This is required for permission management."
+        "BOT_MEMBER_NOT_FOUND": "Could not find bot's member object in the guild. This is required for permission management.",
+        "CATEGORY_CREATION_FAILED": "Failed to create a new category for the game channels. Please check bot permissions. Reason: {reason}",
+    "BOT_MISSING_MANAGE_CHANNELS": "I am missing the 'Manage Channels' permission at the server level. Please grant me this permission in server settings to create channels."
     },
     "INTERACTION_HANDLER": {
         "NO_PENDING_APPROVAL": "❌ No pending approval request found for this message.",
