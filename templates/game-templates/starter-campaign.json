@@ -3,15 +3,19 @@
   "name": "Starter Campaign (Default)",
   "description": "A basic template for a new TTRPG campaign, including general chat, GM-only, and player-only channels.",
   "creationStyle": "new_category",
-  "defaultGMProfileId": "gm_basic_profile",
+  "defaultGMProfileId": null,
+  "categoryPermissions": [
+    { "target": "@everyone", "allow": ["ViewChannel"], "deny": [] },
+    { "target": "{GM_ROLE_ID}", "allow": ["ManageChannels", "ManageRoles", "KickMembers", "MuteMembers"], "deny": [] }
+  ],
   "channels": [
     {
       "name": "general-chat",
       "type": "text",
       "topic": "General discussion for the campaign.",
       "permissions": [
-        { "target": "@everyone", "allow": ["ViewChannel", "SendMessages", "ReadMessageHistory"], "deny": [] },
-        { "target": "{GM_ID}", "allow": ["ManageMessages", "ManageChannels"], "deny": [] }
+        { "target": "@everyone", "allow": ["SendMessages", "ReadMessageHistory"], "deny": [] },
+        { "target": "{GM_ROLE_ID}", "allow": ["ManageMessages"], "deny": [] }
       ],
       "forumTags": []
     },
@@ -20,8 +24,18 @@
       "type": "text",
       "topic": "GM-only discussions and planning.",
       "permissions": [
+        { "target": "@everyone", "allow": [], "deny": ["ViewChannel"] }
+      ],
+      "forumTags": []
+    },
+    {
+      "name": "player-chat",
+      "type": "text",
+      "topic": "Player-only discussions and planning.",
+      "permissions": [
         { "target": "@everyone", "allow": [], "deny": ["ViewChannel"] },
-        { "target": "{GM_ID}", "allow": ["ViewChannel", "SendMessages", "ReadMessageHistory"], "deny": [] }
+        { "target": "{PLAYER_ROLE_ID}", "allow": ["ViewChannel", "SendMessages", "ReadMessageHistory"], "deny": [] },
+        { "target": "{GM_ROLE_ID}", "allow": ["ViewChannel", "SendMessages", "ReadMessageHistory"], "deny": [] }
       ],
       "forumTags": []
     },
@@ -29,19 +43,14 @@
       "name": "player-lfg",
       "type": "text",
       "topic": "Looking for Group / Player Introductions",
-      "permissions": [
-        { "target": "@everyone", "allow": ["ViewChannel", "SendMessages", "ReadMessageHistory"], "deny": [] }
-      ],
+      "permissions": [],
       "forumTags": []
     },
     {
       "name": "session-logs",
       "type": "forum",
       "topic": "Recaps and logs from game sessions.",
-      "permissions": [
-        { "target": "@everyone", "allow": ["ViewChannel", "ReadMessageHistory"], "deny": ["SendMessages"] },
-        { "target": "{GM_ID}", "allow": ["SendMessages"], "deny": [] }
-      ],
+      "permissions": [],
       "forumTags": ["Session 1", "Session 2", "Recap"],
       "initialThreads": [
         {
@@ -53,7 +62,7 @@
         {
           "name": "GM Notes (Private)",
           "message": "This is a private thread for GM notes and secret planning. Players cannot see this!",
-          "isPrivate": true,
+          "isPrivate": true, 
           "tags": []
         }
       ]
