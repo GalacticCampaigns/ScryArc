@@ -6,17 +6,15 @@
   "defaultGMProfileId": null,
   "categoryPermissions": [
     { "target": "@everyone", "allow": ["ViewChannel"], "deny": [] },
-    { "target": "{GM_ROLE_ID}", "allow": ["ManageChannels", "ManageRoles", "KickMembers", "MuteMembers"], "deny": [] }
+    { "target": "{GM_ROLE_ID}", "allow": ["ViewChannel","ManageChannels", "ManageRoles", "KickMembers", "MuteMembers", "ManageMessages"], "deny": [] }
+    { "target": "{PLAYER_ROLE_ID}", "allow": ["ViewChannel", "SendMessages", "ReadMessageHistory"], "deny": [] },
   ],
   "channels": [
     {
       "name": "general-chat",
       "type": "text",
       "topic": "General discussion for the campaign.",
-      "permissions": [
-        { "target": "@everyone", "allow": ["SendMessages", "ReadMessageHistory"], "deny": [] },
-        { "target": "{GM_ROLE_ID}", "allow": ["ManageMessages"], "deny": [] }
-      ],
+      "permissions": [],
       "forumTags": []
     },
     {
@@ -25,6 +23,15 @@
       "topic": "GM-only discussions and planning.",
       "permissions": [
         { "target": "@everyone", "allow": [], "deny": ["ViewChannel"] }
+        { "target": "{GM_ROLE_ID}", "allow": ["ViewChannel"], "deny": [] },
+      ],
+      "initialThreads": [
+        {
+          "name": "GM Notes",
+          "message": "This is a private thread for GM notes and secret planning. Players cannot see this!",
+          "isPrivate": true, 
+          "tags": []
+        }
       ],
       "forumTags": []
     },
@@ -34,8 +41,8 @@
       "topic": "Player-only discussions and planning.",
       "permissions": [
         { "target": "@everyone", "allow": [], "deny": ["ViewChannel"] },
-        { "target": "{PLAYER_ROLE_ID}", "allow": ["ViewChannel", "SendMessages", "ReadMessageHistory"], "deny": [] },
-        { "target": "{GM_ROLE_ID}", "allow": ["ViewChannel", "SendMessages", "ReadMessageHistory"], "deny": [] }
+        { "target": "{GM_ROLE_ID}", "allow": ["ViewChannel"], "deny": [] },
+        { "target": "{PLAYER_ROLE_ID}", "allow": ["ViewChannel"], "deny": [] },
       ],
       "forumTags": []
     },
@@ -58,13 +65,7 @@
           "message": "This is where we'll keep track of all our game sessions. Feel free to create new posts for recaps, questions, or discussions about past games. Use the 'Recap' tag for session summaries!",
           "isPrivate": false,
           "tags": ["Recap"]
-        },
-        {
-          "name": "GM Notes (Private)",
-          "message": "This is a private thread for GM notes and secret planning. Players cannot see this!",
-          "isPrivate": true, 
-          "tags": []
-        }
+        }        
       ]
     }
   ]
