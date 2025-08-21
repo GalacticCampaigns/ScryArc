@@ -2,7 +2,7 @@
   "id": "gm_basic_profile",
   "name": "GM Basic Profile",
   "description": "Standard permissions for a basic game master.",
-  "isDefault": false,
+  "isDefault": true,
   "botId": "1402363837637988488",
   "permissions": [
     "ViewChannel",
