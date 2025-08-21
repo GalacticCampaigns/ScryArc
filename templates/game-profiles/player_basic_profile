@@ -1,0 +1,16 @@
+{
+  "id": "player_basic_profile",
+  "name": "Player Basic Profile",
+  "description": "Standard permissions for a basic player.",
+  "isDefault": true,
+  "botId": "1402363837637988488",
+  "permissions": [
+    "ViewChannel",
+    "SendMessages",
+    "ReadMessageHistory",
+    "EmbedLinks",
+    "AttachFiles",
+    "AddReactions",
+    "UseExternalEmojis"
+  ]
+}
