@@ -1,0 +1,31 @@
+{
+  "id": "scryarc_bot_profile",
+  "name": "Scryarc Bot Core Permissions",
+  "description": "Essential permissions for the Scryarc bot to manage channels, roles, and interactions within game spaces.",
+  "isDefault": true,
+  "botId": "{SCRYARC_CLIENT_ID}",
+  "permissions": [
+    "ViewChannel",
+    "SendMessages",
+    "ReadMessageHistory",
+    "EmbedLinks",
+    "AttachFiles",
+    "AddReactions",
+    "UseExternalEmojis",
+    "ManageMessages",
+    "ManageChannels",
+    "ManageRoles",
+    "ManageThreads",
+    "CreatePublicThreads",
+    "CreatePrivateThreads",
+    "SendMessagesInThreads",
+    "ManageWebhooks",
+    "ManageNicknames",
+    "KickMembers",
+    "BanMembers",
+    "MuteMembers",
+    "DeafenMembers",
+    "MoveMembers",
+    "ChangeNickname"
+  ]
+}
