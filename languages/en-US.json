@@ -107,6 +107,7 @@
         "DESCRIPTION_MAIN": "Configure Scryarc's behavior for your server.",
         "DESCRIPTION_VIEW_SUB": "View the current server configuration for Scryarc.",
         "DESCRIPTION_MODIFY_SUB": "Modify various server configuration settings for Scryarc.",
+        "DESCRIPTION_PERMISSIONS_SUB": "View and manage bot permission profiles for this server.",
         "OPTION_MODE": "Set the default game creation mode for this server.",
         "MODE_OPEN": "Open (Anyone can create games)",
         "MODE_ROLE_RESTRICTED": "Role Restricted (Only specific role can create games)",
