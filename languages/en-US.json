@@ -71,7 +71,8 @@
         "GM_INSTRUCTIONS_TITLE": "📚 GM Instructions 📚",
         "GM_INSTRUCTIONS_GREETING": "<@{gmId}>, here are some quick tips to get started:",
         "GM_INSTRUCTIONS_CONTENT": "- Use `/game roster_view` to see your current GMs and Players.\n- Use `/game add_player` or `/game add_gm` to invite others to your game.\n- Use `/game remove_player` or `/game remove_gm` to manage your roster.\n- Check `/config` for server settings.",
-        "BOT_SELF_PERM_FAILED": "Critical error: Failed to apply bot's own self-management permissions to the new category. Ensure the bot has 'Manage Channels' and 'Manage Roles' and its role is positioned high in the server hierarchy."
+        "BOT_SELF_PERM_FAILED": "Critical error: Failed to apply bot's own self-management permissions to the new category. Ensure the bot has 'Manage Channels' and 'Manage Roles' and its role is positioned high in the server hierarchy.",
+        "BOT_TEMP_EVERYONE_PERMS_FAILED": "Critical error: Failed to apply temporary '@everyone' permissions to the new category. This might indicate a severe permission issue. Ensure the bot has 'Manage Channels' and 'Manage Roles' and its role is positioned high in the server hierarchy."
     },
     "INTERACTION_HANDLER": {
         "APPROVAL_PERMISSION_DENIED": "You do not have permission to approve or deny game creation requests.",
