@@ -1,0 +1,43 @@
+{
+  "id": "existing_category_starter_campaign",
+  "name": "Starter Campaign (Existing Category)",
+  "description": "A template for a new TTRPG campaign, placing channels within an existing server category. All permissions are configured per channel, respecting the parent category's existing setup.",
+  "creationStyle": "existing_category",
+  "channels": [
+    {
+      "name": "[{GameSystem}]-{GamePrefix}-{GameName}",
+      "type": "text",
+      "topic": "GM-only discussions, planning, and secret notes. Players cannot see this channel.",
+      "permissions": [
+        { "target": "@everyone", "allow": [], "deny": ["ViewChannel"] },
+        { "target": "{GM_ROLE_ID}", "profileId": "gm_basic_profile", "allow": ["SendMessages", "ViewChannel", "ReadMessageHistory", "ManageMessages"], "deny": [] },
+        { "target": "{PLAYER_ROLE_ID}", "allow": [], "deny": ["ViewChannel"] }
+      ]
+    },
+    {
+      "name": "[{GameSystem}]-{GamePrefix}-{GameName}",
+      "type": "forum",
+      "topic": "Recaps, logs, and discussion from game sessions. Use tags to organize.",
+      "permissions": [
+        { "target": "@everyone", "allow": ["ViewChannel", "ReadMessageHistory"], "deny": ["SendMessagesInThreads"] },
+        { "target": "{GM_ROLE_ID}", "profileId": "gm_basic_profile", "allow": ["CreatePublicThreads", "CreatePrivateThreads", "SendMessagesInThreads", "ManageThreads"], "deny": [] },
+        { "target": "{PLAYER_ROLE_ID}", "profileId": "player_basic_profile", "allow": ["CreatePublicThreads", "SendMessagesInThreads"], "deny": [] }
+      ],
+      "forumTags": ["Session", "Recap", "Bluebook", "Resources"],
+      "initialThreads": [
+        {
+          "name": "{GamePrefix}-OOC",
+          "message": "This forum is for all discussions, logs, and recaps of our game sessions. Please use the relevant tags!",
+          "isPrivate": false,
+          "tags": ["Recap"]
+        },
+        {
+          "name": "Session Recaps!",
+          "message": "This forum is for all discussions, logs, and recaps of our game sessions. Please use the relevant tags!",
+          "isPrivate": false,
+          "tags": ["Recap"]
+        }
+      ]
+    }
+  ]
+}
