@@ -78,7 +78,16 @@
         "BOT_TEMP_EVERYONE_PERMS_FAILED": "Critical error: Failed to apply temporary '@everyone' permissions to the new category. This might indicate a severe permission issue. Ensure the bot has 'Manage Channels' and 'Manage Roles' and its role is positioned high in the server hierarchy.",
         "FINAL_EVERYONE_PERMS_FAILED": "Warning: Failed to apply final '@everyone' permissions for category privacy. Manual adjustment may be required. Ensure the bot has 'Manage Channels' and 'Manage Roles' and its role is positioned high in the server hierarchy.",
         "ADMIN_PERM_MISSING_CATEGORY_WARN": "Warning: The bot lacks 'Administrator' permission. Game category created, but initial permission setup might be incomplete. Please manually adjust permissions for roles and privacy if needed.",
-        "ADMIN_PERM_MISSING_CHANNEL_WARN": "Warning: The bot lacks 'Administrator' permission. Channel '{channelName}' created, but initial permission setup might be incomplete. Please manually adjust permissions if needed."
+        "ADMIN_PERM_MISSING_CHANNEL_WARN": "Warning: The bot lacks 'Administrator' permission. Channel '{channelName}' created, but initial permission setup might be incomplete. Please manually adjust permissions if needed.",
+        "WARNING_BOT_PERMS_SKIPPED": "Warning: Bot lacks 'Administrator' permission. Some bot-specific category permissions could not be applied.",
+        "WARNING_TEMPLATE_PERM_FAILED": "Warning: Failed to apply a specific category permission for target '{targetId}'. Manual adjustment may be required.",
+        "WARNING_PRIVACY_PERM_FAILED": "Warning: Failed to apply final '@everyone' permissions for category privacy. Manual adjustment may be required.",
+        "WARNING_CONFIGURED_CATEGORY_INVALID": "Warning: The configured category is invalid or inaccessible. Attempting to create a default fallback category.",
+        "WARNING_CONFIGURED_CATEGORY_NOT_FOUND": "Warning: The configured category could not be found. Attempting to create a default fallback category.",
+        "WARNING_NO_CATEGORY_CONFIGURED": "Warning: No {privacy} category configured. Attempting to create a default fallback category.",
+        "DEFAULT_PRIVATE_CATEGORY_NAME": "Private Games (Fallback)",
+        "DEFAULT_PUBLIC_CATEGORY_NAME": "Active Games (Fallback)",
+        "FINAL_WARNING_SUMMARY": "⚠️ **Game Creation Warnings** ⚠️\nThe game was created, but the following issues occurred during setup:\n\n- {warningList}\n\nPlease review your server configuration and the newly created game channels for any discrepancies."
     },
     "INTERACTION_HANDLER": {
         "APPROVAL_PERMISSION_DENIED": "You do not have permission to approve or deny game creation requests.",
