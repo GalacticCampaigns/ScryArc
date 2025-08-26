@@ -257,9 +257,10 @@
         "REMOVE_GM_SUCCESS": "Successfully removed {target} from GMs in **{gameName}**.",
         "ROLE_MANAGEMENT_FAILED": "Failed to manage Discord role for the participant. Please check bot permissions."
     },
-        "SCYARCADMIN_COMMAND": {
+    "SCYARCADMIN_COMMAND": {
         "DESCRIPTION_MAIN": "Owner-only commands for Scryarc administration.",
         "OWNER_ONLY_PERMISSION_DENIED": "This command can only be used by the bot owner.",
+        "PERMISSION_DENIED": "You do not have permission to use this command. Only the bot owner, server administrators, or assigned Scryarc Config Admins can use this.",
         "CLEANUP_DESCRIPTION_GROUP": "Commands for identifying and cleaning up orphaned Discord entities and failed game entries.",
         "CLEANUP_SCAN_DESCRIPTION": "Scans for orphaned Discord entities and failed game database entries (dry run).",
         "CLEANUP_EXECUTE_DESCRIPTION": "Executes cleanup of identified orphaned Discord entities and failed game database entries.",
