@@ -1,7 +1,7 @@
 {
-  "id": "starter_campaign",
-  "name": "Starter Campaign (Default)",
-  "description": "A basic template for a new TTRPG campaign, including general chat, GM-only, and player-only channels.",
+  "id": "category_starter_campaign",
+  "name": "Starter Campaign (New Category)",
+  "description": "A basic template for a new TTRPG campaign creating a Custom Category with all channels, including general chat, GM-only, and player-only channels.",
   "creationStyle": "new_category",
   "categoryPermissions": [
     { "target": "@everyone", "allow": ["ViewChannel"], "deny": [] },
